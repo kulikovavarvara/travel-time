@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.hero {
+    background-image: url(../img/Travel\ Time.png);
+    background-size: cover;
+    height: 100vb;
+}
+
+.nav__list {
+    font-family: font-family;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    column-gap: 42px;
+    fill: rgba(0, 0, 0, 0.35);
+    justify-content: center;
+
+}
+
+.hero__title {
+    font-family: font-family;
+    font-weight: 700;
+    font-size: 96px;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.hero__subtitle {
+    width: 749px;
+    height: 72px;
+    font-family: font-family;
+    color: white;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+
+
+}
+
+.btn-wrap {
+    font-family: second-family;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 117%;
+    color: white;
+}
+
+.hero__btn-wrap {
+    border: 1px solid #00b43d;
+    border-radius: 8px;
+    padding: 16px 28px;
+    display: inline-block;
+    box-shadow: 0 0 0 4px #fee4e2, 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+    background: #00b43d;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+
+}
